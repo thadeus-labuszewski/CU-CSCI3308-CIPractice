@@ -1,0 +1,5 @@
+language: c
+sudo: required
+install: make dep
+script: make && make test
+target: make test
